@@ -1,0 +1,15 @@
+.action__container__items__button-link {
+    border: 1.5px solid #000;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+    font-family: HkgrotreskBold, sans-serif;
+    transition: 0.5s;
+}
+
+.action__container__items__button-link:hover {
+    background-color: #000;
+    color: #ffffff;
+}

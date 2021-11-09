@@ -1,0 +1,9 @@
+.banner__title {
+    font-size: 5em;
+    text-align: center;
+    font-family: LouisGeorgeCafeBold, sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: #ffffff;
+}

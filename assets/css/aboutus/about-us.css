@@ -1,0 +1,67 @@
+.about-us__container__title {
+    font-size: 3.5em;
+    font-family: "LouisGeorgeCafeBold", sans-serif;
+}
+.about-us {
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+}
+
+.about-us__container__banner {
+    border-radius: 5px;
+    margin-top: 2em;
+    width: 1200px;
+}
+
+.about-us__container__content {
+    text-align: left;
+}
+
+.about-us__container__content h2,
+h4 {
+    color: #0d0d12;
+    font-family: "LouisGeorgeCafe", sans-serif;
+}
+
+.about-us__container__content h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 50px 0 50px 0;
+}
+
+.about-us__container__content h4 {
+    font-size: large;
+    margin: 50px 0 50px 0;
+}
+
+.about-us__container__content p {
+    color: #7a7a7a;
+    font-family: Hkgrotresk, sans-serif;
+    font-size: 1.1em;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 768px) {
+    .about-us {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .about-us__container__banner {
+        height: 20vh;
+        width: 80%;
+    }
+
+    .about-us__container__title {
+        font-size: 2em;
+    }
+
+    .about-us__container__content {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

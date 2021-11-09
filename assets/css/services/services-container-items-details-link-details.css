@@ -1,0 +1,27 @@
+.services__container__items__details__link__details {
+    font-family: HkgrotreskBold, sans-serif;
+    font-size: medium;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.services__container__items:hover
+    .services__container__items__details__link__details {
+    visibility: visible;
+    opacity: 1;
+    animation-name: service-link-details;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes service-link-details {
+    0% {
+        transform: translate3d(-20%, 0, 0);
+    }
+    100% {
+        transform: translate3d(0%, 0, 0);
+    }
+}

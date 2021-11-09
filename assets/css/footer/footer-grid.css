@@ -1,0 +1,14 @@
+.footer__grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 1200px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+    .footer__grid {
+        display: flex;
+        flex-flow: column wrap;
+        width: 0;
+        margin: 0;
+    }
+}

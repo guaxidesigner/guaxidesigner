@@ -1,0 +1,9 @@
+.clients__column__logo {
+    width: 268px;
+    height: auto;
+    opacity: 50%;
+}
+
+.clients__column__logo:hover {
+    opacity: 1;
+}

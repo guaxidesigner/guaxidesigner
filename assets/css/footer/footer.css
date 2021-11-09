@@ -1,0 +1,16 @@
+.footer {
+    background-color: #7916f0;
+    padding: 1em 0 1em 0;
+}
+
+.footer__grid__links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Hkgrotresk, sans-serif;
+    font-size: 1.1em;
+    padding: 0;
+}
+
+.footer__grid__links .menu-item {
+    margin: 1em 0 1em 0;
+}

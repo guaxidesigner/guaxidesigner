@@ -1,0 +1,175 @@
+.contact {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contact__title {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: LouisGeorgeCafeBold, sans-serif;
+  margin: 20px 0 20px 0;
+}
+
+.contact__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__info__items {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 40px;
+  width: 300px;
+}
+
+.contact__info__items__icon {
+  color: #7916f0;
+  font-size: xxx-large;
+  margin: 20px 0 20px 0;
+}
+
+.contact__info__items__title {
+  font-family: LouisGeorgeCafeBold, sans-serif;
+  margin: 10px 0 10px 0;
+  font-size: medium;
+}
+
+.contact__info__items__description {
+  font-family: LouisGeorgeCafe, sans-serif;
+  color: #7a7a7a;
+}
+
+.map__box {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.map__title {
+  color: #0c0c0c;
+  font-weight: bold;
+  margin: 40px 0 40px 0;
+  font-size: 1em;
+  font-family: LouisGeorgeCafe, sans-serif;
+}
+
+.contactMessage {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.contactMessage__box {
+  text-align: center;
+}
+
+.contactMessage__box__subtitle {
+  color: #0c0c0c;
+  font-weight: bold;
+  margin: 40px 0 40px 0;
+  font-size: 1em;
+  font-family: LouisGeorgeCafe, sans-serif;
+}
+
+.contactMessage__box__title {
+  color: #0c0c0c;
+  font-weight: bold;
+  margin: 40px 0 40px 0;
+  font-size: 3em;
+  font-family: LouisGeorgeCafe, sans-serif;
+}
+
+.contactMessage__inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contactMessage__inputs__box {
+  width: 48%;
+}
+
+.contactMessage__inputs__box__inputText {
+  width: 100%;
+  border: 1px solid rgba(221, 38, 190, 1);
+  border-radius: 2px;
+  font-family: LouisGeorgeCafe, sans-serif;
+  font-size: medium;
+  padding: 15px;
+  margin: 10px 0 10px 0;
+}
+
+.contactMessage__inputs__boxArea__textArea {
+  width: 100%;
+  border: 1px solid rgba(221, 38, 190, 1);
+  border-radius: 2px;
+  font-family: LouisGeorgeCafe, sans-serif;
+  font-size: medium;
+  padding: 15px;
+  margin: 10px 0 10px 0;
+}
+
+.contactMessage__boxButton__button {
+  width: 50%;
+  padding: 15px 0 15px 0;
+  font-family: Comfortaa, 'cursive';
+  background-color: rgba(221, 38, 190, 1);
+  color: #f0f0ee;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact__info {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .contact__info__items {
+    width: 50%;
+    margin: 20px auto;
+  }
+
+  .map__box {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contactMessage {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .contactMessage__box__title {
+    font-size: 2em;
+  }
+
+  .contactMessage__inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+  }
+
+  .contactMessage__inputs__box {
+    width: 100%;
+  }
+
+  .contactMessage__inputs__box__inputText {
+    width: 90%;
+  }
+
+  .contactMessage__inputs__boxArea__textArea {
+    width: 90%;
+  }
+  .contactMessage__boxButton__button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,37 @@
+.services__container__items__details__link__icon {
+    font-size: x-large;
+    position: absolute;
+    bottom: 0;
+}
+
+.services__container__items:not(:hover)
+    .services__container__items__details__link__icon {
+    animation-name: not-service-link-icon;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes not-service-link-icon {
+    0% {
+        transform: translate3d(-50%, 0, 0);
+    }
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+.services__container__items:hover
+    .services__container__items__details__link__icon {
+    animation-name: service-link-icon;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes service-link-icon {
+    0% {
+        transform: translate3d(-50%, 0, 0);
+    }
+    100% {
+        transform: translate3d(-150%, 0, 0);
+    }
+}

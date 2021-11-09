@@ -1,0 +1,39 @@
+.services__container__items__icon {
+    color: #7916f0;
+    font-size: 50px;
+    margin: 20px 0 20px 0;
+}
+
+.services__container__items:hover .services__container__items__icon {
+    color: #000;
+    transition: color 0.5s;
+    animation-name: services-icon;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes services-icon {
+    0% {
+        transform: translate3d(0, 0%, 0);
+    }
+    100% {
+        transform: translate3d(0, -75%, 0);
+    }
+}
+
+.services__container__items:not(:hover) .services__container__items__icon {
+    color: #7916f0;
+    transition: color 0.5s;
+    animation-name: not-services-icon;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes not-services-icon {
+    0% {
+        transform: translate3d(0, -75%, 0);
+    }
+    100% {
+        transform: translate3d(0, 0%, 0);
+    }
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: LouisGeorgeCafeBold;
+  src: url(font/louis_george_cafe_bold.woff2);
+}
+@font-face {
+  font-family: LouisGeorgeCafe;
+  src: url(font/louis_george_cafe.woff2);
+}
+
+@font-face {
+  font-family: Fontello;
+  src: url(font/fontello.woff2);
+}
+
+@font-face {
+  font-family: HkgrotreskBold;
+  src: url(font/hkgrotesk-bold.woff2);
+}
+
+@font-face {
+  font-family: HkgrotreskSemiBold;
+  src: url(font/hkgrotesk-semibold.woff2);
+}
+
+@font-face {
+  font-family: Hkgrotresk;
+  src: url(font/hkgrotesk-regular.woff2);
+}

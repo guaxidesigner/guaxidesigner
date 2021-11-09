@@ -1,0 +1,16 @@
+.projects__column__postinfo {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+}
+
+.projects__column:hover .projects__column__postinfo {
+    opacity: 1;
+    transition: 1.2s;
+}
+
+@media only screen and (max-width: 768px) {
+    .projects__column__postinfo {
+        font-size: 12px;
+    }
+}

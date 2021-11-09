@@ -1,0 +1,67 @@
+/*Our Team*/
+.team {
+  text-align: left;
+}
+
+.team__title {
+  font-size: 2.5em;
+  font-family: 'LouisGeorgeCafeBold', sans-serif;
+}
+
+.team__container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.team_container__item__photo {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+
+.team_container__item__name {
+  color: #0d0d12;
+  font-family: 'LouisGeorgeCafeBold', sans-serif;
+  font-size: 1.8em;
+}
+
+.team_container__item__role {
+  color: #4a4f55;
+  font-family: 'LouisGeorgeCafe', sans-serif;
+  font-size: 1em;
+  padding: 1em 0 1em 0;
+}
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .team {
+    width: 100%;
+  }
+
+  .team__title {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 1.5em;
+  }
+
+  .team__container {
+    flex-flow: column wrap;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .team_container__item__photo {
+    width: 100%;
+    height: auto;
+  }
+
+  .team_container__item__name {
+    font-size: 1em;
+  }
+
+  .team_container__item__role {
+    font-size: 0.8em;
+  }
+}

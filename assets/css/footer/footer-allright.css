@@ -1,0 +1,78 @@
+.footer__allrights {
+    color: #ffffff;
+    font-family: Hkgrotresk, sans-serif;
+    padding: 25px 0 25px 0;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-color: #dddddd;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.underline_anim {
+    display: inline;
+    padding: 0;
+    background-image: linear-gradient(
+        to right,
+        currentColor 0%,
+        currentColor 100%
+    );
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0 2px;
+}
+.underline_anim.underline_hover {
+    animation: underline_hover_on 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) both;
+}
+@-webkit-keyframes underline_hover_on {
+    0% {
+        -webkit-background-size: 0 2px;
+        background-size: 0 2px;
+    }
+    100% {
+        -webkit-background-size: 100% 2px;
+        background-size: 100% 2px;
+    }
+}
+@keyframes underline_hover_on {
+    0% {
+        -webkit-background-size: 0 2px;
+        background-size: 0 2px;
+    }
+    100% {
+        -webkit-background-size: 100% 2px;
+        background-size: 100% 2px;
+    }
+}
+.underline_anim.underline_hover:hover {
+    animation: underline_hover_off 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) both;
+}
+@-webkit-keyframes underline_hover_off {
+    0% {
+        -webkit-background-size: 100% 2px;
+        background-size: 100% 2px;
+    }
+    100% {
+        -webkit-background-size: 0 2px;
+        background-size: 0 2px;
+    }
+}
+@keyframes underline_hover_off {
+    0% {
+        -webkit-background-size: 100% 2px;
+        background-size: 100% 2px;
+    }
+    100% {
+        -webkit-background-size: 0 2px;
+        background-size: 0 2px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer__allrights {
+        width: 100%;
+        margin: 25px 50px;
+        border-style: none;
+        font-size: small;
+    }
+}

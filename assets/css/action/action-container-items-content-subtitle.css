@@ -1,0 +1,12 @@
+.action__container__items__content__subtitle {
+    color: #000;
+    margin: 20px 0 20px 0;
+    font-family: LouisGeorgeCafeBold, sans-serif;
+    font-size: 0.425em;
+}
+
+@media only screen and (max-width: 768px) {
+    .action__container__items__content__subtitle {
+        font-size: 0.325em;
+    }
+}
